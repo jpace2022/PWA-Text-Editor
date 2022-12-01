@@ -1,7 +1,22 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+<h1 align="center"> PWA-Text-Editor </h1>  
 
-## Your Task
+## License
 
+**MIT** ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Table of Content
+- [Project Discription](#discription)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Mock Up](#mockup)
+- [Deployed URL](#deployedurl)
+- [GitHub](#github)
+- [Contact](#contact)
+
+## Discription
 As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
 
 Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
@@ -10,17 +25,12 @@ To build this text editor, you will start with an existing application and imple
 
 You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
-## User Story
 
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
+## Installation
+N/A
+    
 
-## Acceptance Criteria
-
-```md
+## Usage
 GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
@@ -46,48 +56,6 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
-```
-
-
-<h1 align="center"> 18 NoSQL: Social Network API </h1>  
-
-## License
-
-**MIT** ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-## Table of Content
-- [Project Discription](#discription)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contribution](#contribution)
-- [Test](#test)
-- [Mock Up](#mockup)
-- [Deployed URL](#deployedurl)
-- [GitHub](#github)
-- [Contact](#contact)
-
-## Discription
-
-MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Over the last part of this course, you’ll use several of the technologies that social networking platforms use in their full-stack applications. Because the foundation of these applications is data, it’s important that you understand how to build and structure the API first.
-
-Your Challenge is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, you may also optionally use a JavaScript date library of your choice or the native JavaScript `Date` object to format timestamps.
-
-No seed data is provided, so you’ll need to create your own data using Insomnia after you’ve created your API.
-
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
-
-## Installation
-
-[MongoDB installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb)
-"express":"^4.18.2",
-"moment": "^2.29.4",
-"mongoose": "^6.0.0",
-"nodemon": "^2.0.20"
-    
-
-## Usage
-
 
 ## Contribution
     James Pace
