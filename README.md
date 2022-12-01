@@ -48,95 +48,66 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
 
-The following animation demonstrates the application functionality:
+<h1 align="center"> 18 NoSQL: Social Network API </h1>  
 
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
+## License
 
-The following image shows the application's `manifest.json` file:
+**MIT** ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+## Table of Content
+- [Project Discription](#discription)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Mock Up](#mockup)
+- [Deployed URL](#deployedurl)
+- [GitHub](#github)
+- [Contact](#contact)
 
-The following image shows the application's registered service worker:
+## Discription
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Over the last part of this course, you’ll use several of the technologies that social networking platforms use in their full-stack applications. Because the foundation of these applications is data, it’s important that you understand how to build and structure the API first.
 
-The following image shows the application's IndexedDB storage:
+Your Challenge is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, you may also optionally use a JavaScript date library of your choice or the native JavaScript `Date` object to format timestamps.
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+No seed data is provided, so you’ll need to create your own data using Insomnia after you’ve created your API.
 
-## Grading Requirements
+Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Installation
 
-This Challenge is graded based on the following criteria:
+[MongoDB installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb)
+"express":"^4.18.2",
+"moment": "^2.29.4",
+"mongoose": "^6.0.0",
+"nodemon": "^2.0.20"
+    
 
-### Technical Acceptance Criteria: 40%
+## Usage
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+## Contribution
+    James Pace
 
-  * The application works without an internet connection
+## Test
+   N/A
+## Mock Up
+N/A
 
-  * Automatically saves content inside the text editor when the DOM window is unfocused
+## GitHub Repo
+   [PWA-Text-Editor (https://github.com/jpace2022/PWA-Text-Editor.git)] 
 
-  * Bundled with webpack
+## Contact
+    For any questions or concerns, contact me at my email: pacej2022@gmail.com
 
-  * Create a service worker with workbox that Caches static assets
+## Image Link
+![PWA-Text-Editor](#)
+![PWA-Text-Editor](#)
+![PWA-Text-Editor](#)
+    
 
-  * The application should use babel in order to use async / await
-
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
-
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Video Link
+[![PWA-Text-Editor]](https://drive.google.com/file/d/149u06_-RU0YOH7IqBBtSsMMrrtd1NX24/view?usp=sharing)
